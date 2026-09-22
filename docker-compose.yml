@@ -1,0 +1,10 @@
+services:
+ assistant:
+  build:
+   context: .
+   dockerfile: DockerFile
+  stdin_open: true
+  tty: true
+  volumes:
+   - ./knowledge:/app/knowledge
+   - ./data:/app/data

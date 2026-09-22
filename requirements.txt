@@ -1,0 +1,8 @@
+# Retrieval and data-processing libraries for semantic search and structured CSV reading.
+# PDF support is optional; CSV and text workflows work without the extra package.
+transformers>=4.40.0
+numpy>=1.26.0
+pandas>=2.2.0
+sentence-transformers>=2.6.1
+pypdf>=5.0.0
+pytest>=8.0.0

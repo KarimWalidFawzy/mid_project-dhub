@@ -1,0 +1,212 @@
+[
+  {
+    "role": "user",
+    "content": "say hi",
+    "timestamp": "2026-09-15T21:21:47.559329+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "I could not find relevant information in the knowledge base.",
+    "timestamp": "2026-09-15T21:21:47.575530+00:00"
+  },
+  {
+    "role": "user",
+    "content": "can you say hi?",
+    "timestamp": "2026-09-16T06:51:43.297018+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "# Knowledge Assistant with Memory A dependency-light, local retrieval-augmented knowledge assistant. It indexes `.txt`, `.md`, `.csv`, and `.pdf` files, retrieves relevant passages with TF-IDF, and stores the complete conversation in JSON.\n\nSources: README.md",
+    "timestamp": "2026-09-16T06:51:43.318101+00:00"
+  },
+  {
+    "role": "user",
+    "content": "say hi",
+    "timestamp": "2026-09-16T06:58:21.603117+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "# Knowledge Assistant with Memory A dependency-light, local retrieval-augmented knowledge assistant. It indexes `.txt`, `.md`, `.csv`, and `.pdf` files, retrieves relevant passages with TF-IDF, and stores the complete conversation in JSON. # Optional dependency for PDF ingestion. CSV exports from Google Sheets work # without dependencies.\n\nSources: README.md, requirements.txt",
+    "timestamp": "2026-09-16T06:58:21.621704+00:00"
+  },
+  {
+    "role": "user",
+    "content": "What is this project about?",
+    "timestamp": "2026-09-16T07:02:42.902590+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "## Run locally ```text python -m pip install -r requirements.txt ``` Put source files in `knowledge/`, then ask one question: ```text python main.py --question \"What is the refund policy?\" ``` Run the interactive assistant with `python main.py`. A CSV export is enough to use a Google Sheet as a knowledge source. What is this project about? Can you say hi?\n\nSources: README.md, knowledge/1stdoc.txt, requirements.txt",
+    "timestamp": "2026-09-16T07:02:42.916749+00:00"
+  },
+  {
+    "role": "user",
+    "content": "What is refund policy?",
+    "timestamp": "2026-09-16T07:04:41.302631+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds. A clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T07:04:41.315552+00:00"
+  },
+  {
+    "role": "user",
+    "content": "What should businesses consider?",
+    "timestamp": "2026-09-16T07:06:14.846875+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "When creating a refund policy, businesses should consider the following key elements: 1. Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T07:06:14.859675+00:00"
+  },
+  {
+    "role": "user",
+    "content": "What else?",
+    "timestamp": "2026-09-16T07:07:17.961541+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds. A clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T07:07:17.965037+00:00"
+  },
+  {
+    "role": "user",
+    "content": "What should businesses consider?",
+    "timestamp": "2026-09-16T07:07:37.679038+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "When creating a refund policy, businesses should consider the following key elements: 1. Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T07:07:37.688275+00:00"
+  },
+  {
+    "role": "user",
+    "content": "What else?",
+    "timestamp": "2026-09-16T07:07:40.835156+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds. A clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T07:07:40.851242+00:00"
+  },
+  {
+    "role": "user",
+    "content": "Why is refund policy important?",
+    "timestamp": "2026-09-16T10:22:05.772052+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds. A clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T10:22:05.793224+00:00"
+  },
+  {
+    "role": "user",
+    "content": "Why is refund policy important?",
+    "timestamp": "2026-09-16T10:23:19.245199+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds. A clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T10:23:19.253849+00:00"
+  },
+  {
+    "role": "user",
+    "content": "Why is refund policy important?",
+    "timestamp": "2026-09-16T10:39:15.563065+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds. A clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T10:39:15.570861+00:00"
+  },
+  {
+    "role": "user",
+    "content": "Say hi",
+    "timestamp": "2026-09-16T18:58:19.892829+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds. A clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T18:58:19.903710+00:00"
+  },
+  {
+    "role": "user",
+    "content": "c:\\Users\\kimot\\Desktop\\AI\\D-Hub\\mid_project\\.venv-1\\Scripts\\activate",
+    "timestamp": "2026-09-16T18:58:26.497397+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "When creating a refund policy, businesses should consider the following key elements: 1. Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T18:58:26.505538+00:00"
+  },
+  {
+    "role": "user",
+    "content": "What is a refund policy?",
+    "timestamp": "2026-09-16T18:58:47.227738+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds. A clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience.\n\nSources: knowledge/1stdoc.txt",
+    "timestamp": "2026-09-16T18:58:47.238437+00:00"
+  },
+  {
+    "role": "user",
+    "content": "Say hi",
+    "timestamp": "2026-09-17T07:06:56.269011+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Refund policy is an important aspect of any business, as it outlines the terms and conditions under which customers can return products or request refunds. A clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience.\n\nSources: knowledge\\1stdoc.txt",
+    "timestamp": "2026-09-17T07:06:56.270495+00:00"
+  },
+  {
+    "role": "user",
+    "content": "Say hi",
+    "timestamp": "2026-09-20T14:49:47.087156+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "customer\n\nSources: knowledge\\1stdoc.txt",
+    "timestamp": "2026-09-20T14:49:47.088831+00:00"
+  },
+  {
+    "role": "user",
+    "content": "Say hi",
+    "timestamp": "2026-09-20T14:50:50.149351+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "customer\n\nSources: knowledge\\1stdoc.txt",
+    "timestamp": "2026-09-20T14:50:50.150207+00:00"
+  },
+  {
+    "role": "user",
+    "content": "What",
+    "timestamp": "2026-09-20T14:51:04.023442+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "A clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience\n\nSources: knowledge\\1stdoc.txt",
+    "timestamp": "2026-09-20T14:51:04.024549+00:00"
+  },
+  {
+    "role": "user",
+    "content": "What is a refund policy?",
+    "timestamp": "2026-09-20T14:51:13.798359+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "outlines the terms and conditions under which customers can return products or request refunds\n\nSources: knowledge\\1stdoc.txt",
+    "timestamp": "2026-09-20T14:51:13.799302+00:00"
+  },
+  {
+    "role": "user",
+    "content": "cls",
+    "timestamp": "2026-09-20T14:51:28.745597+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "a clear and fair refund policy helps build trust with customers and can enhance their overall shopping experience\n\nSources: knowledge\\1stdoc.txt",
+    "timestamp": "2026-09-20T14:51:28.746915+00:00"
+  }
+]
